@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
-	@Value("${webResponse.value}")
+	@Value("${webresponse.value}")
 	private String webResponseValue;
 
 	private static final String template = "Hello, %s!";
